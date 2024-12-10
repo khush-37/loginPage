@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://th.bing.com/th?id=OIP.6vivN9JnZiDHdRtHQMajbAHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    background-blend-mode: multiply;
+  
+}
+
+/* Login Container */
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    background-image: url(https://th.bing.com/th/id/OIP.ZQCqRS-EDJhiUdfxDSYqTgHaEt?w=244&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-blend-mode: multiply;
+    mix-blend-mode: inherit;
+   
+    
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: white;
+}
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 1em;
+    color: whitesmoke;
+    margin-bottom: 5px;
+    display: block;
+   
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    opacity: 20%;
+}
+
+/* Button */
+button.btn {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.btn:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    .input-group input {
+        padding: 8px;
+        font-size: 1em;
+    }
+    button.btn {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
